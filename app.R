@@ -94,7 +94,6 @@ server <- function(input,output){
     
     chart <- barplot(as.numeric(our_data$fee_cleaned),names.arg = our_data$player_name,
             # xlab = "Player",
-            # horiz=T,
             ylab = "Fee, GBPm",
             # col = our_data$year,
             # main = "Top transfers, summer 2020",
